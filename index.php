@@ -2,11 +2,17 @@
 
     require 'config/autoloader.php';
 
+    require 'config/dev.php';
+
     $article = new Article(['id' => 1, 'title' => 'Voici mon titre', 'content' => 'Un contenu de blog détaillé', 'theme' => 'Santé, Tech', 'createdAt' => new DateTime(), 'updatedAt' => new DateTime()]);
 
-    echo '<pre>';
-    var_dump($article);
-    echo '</pre>';
+    // echo '<pre>';
+    // var_dump($article);
+    // echo '</pre>';
+
+    $am = new ArticleManager();
+
+    var_dump($am->getAllArticles());
 
 ?>
 <!DOCTYPE html>
