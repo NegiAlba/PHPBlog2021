@@ -1,9 +1,10 @@
 <?php
 
-    require 'config/dev.php';
-// require 'config/autoloader.php';
+    require '../config/dev.php';
 
-use \App\src\Router;
+    require '../vendor/autoload.php';
+
+use App\src\Router;
 
 $router = new Router();
 $router->run();

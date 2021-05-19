@@ -6,7 +6,7 @@ use App\src\models\Article;
 use PDO;
 use PDOException;
 
-class ArticleManager
+class ArticleDAO
 {
     //! PARTIE CONNEXION A LA BDD
     private $db;
