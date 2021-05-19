@@ -23,3 +23,12 @@ _Projet Blog_
 ### Auteur (Nom & email)
 ### Date de rédaction
 
+===
+
+- Create Base libraries
+- Make Article requests in models
+- Make Articles Controller
+- Make .htaccess for public and root
+- Define again consts (AppRoot and UrlRoot)
+- Create Views
+
