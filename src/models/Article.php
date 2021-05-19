@@ -1,5 +1,7 @@
 <?php
 
+namespace App\src\models;
+
 class Article
 {
     //! Propriétés
@@ -168,7 +170,7 @@ class Article
      *
      * @param DateTime $createdAt creation Date of article
      */
-    public function setCreatedAt(DateTime $createdAt)
+    public function setCreatedAt(\DateTime $createdAt)
     {
         $this->createdAt = $createdAt;
     }
@@ -188,7 +190,7 @@ class Article
      *
      * @param DateTime $updatedAt update Date of article
      */
-    public function setUpdatedAt(DateTime $updatedAt)
+    public function setUpdatedAt(\DateTime $updatedAt)
     {
         $this->updatedAt = $updatedAt;
     }
