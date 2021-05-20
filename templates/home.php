@@ -36,18 +36,20 @@
             </p>
         </figure>
         <div class="media-content">
-            <div class="content">
-                <p>
-                <h2><?php echo $article->getTitle(); ?></h2>
-                <!-- 
-                </small> <small>
-                    <p>Crée le : <?php echo $article->getCreatedAt(); ?>
+            <a href="post/<?php echo $article->getId(); ?>">
+                <div class="content">
+                    <p>
+                    <h2><?php echo $article->getTitle(); ?></h2>
+                    <!-- 
+                    </small> <small>
+                        <p>Crée le : <?php echo $article->getCreatedAt(); ?>
+                        </p>
+                    </small> --> 
+                    <br>
+                    <?php echo $article->getContent(); ?>
                     </p>
-                </small> -->
-                <br>
-                <?php echo $article->getContent(); ?>
-                </p>
-            </div>
+                </div>
+            </a>
         </div>
         <div class="media-right">
             <small>

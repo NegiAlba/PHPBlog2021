@@ -22,13 +22,7 @@ _Projet Blog_
 ### Corps du commentaires
 ### Auteur (Nom & email)
 ### Date de rédaction
+### Id de l'article
 
-===
 
-- Create Base libraries
-- Make Article requests in models
-- Make Articles Controller
-- Make .htaccess for public and root
-- Define again consts (AppRoot and UrlRoot)
-- Create Views
-
+# Créer la base de données correspondante

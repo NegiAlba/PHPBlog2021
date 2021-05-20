@@ -170,7 +170,7 @@ class Article
      *
      * @param DateTime $createdAt creation Date of article
      */
-    public function setCreatedAt(\DateTime $createdAt)
+    public function setCreatedAt($createdAt)
     {
         $this->createdAt = $createdAt;
     }
@@ -190,7 +190,7 @@ class Article
      *
      * @param DateTime $updatedAt update Date of article
      */
-    public function setUpdatedAt(\DateTime $updatedAt)
+    public function setUpdatedAt($updatedAt)
     {
         $this->updatedAt = $updatedAt;
     }
