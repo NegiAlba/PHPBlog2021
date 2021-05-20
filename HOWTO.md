@@ -4,11 +4,19 @@
 - * Créer les models qui vont servir de base pour notre projet *
 - * Créer les views (ou en tout cas leur squelette) qui vont accueillir nos données *
 
+- Schéma des views : 
+    CRUD du model :
+        - Affichage de toutes les instances du model
+        - Affichage d'une seule instance du model
+        - La création du model (Formulaire de création)
+        - La modification du model (Formulaire de MaJ)
+        - La suppression du model (Parfois, ce sera combiné avec une des deux priemières views)
+
 ---
 
 - * Déterminer les constantes d'environnement *
 - * Réaliser un Objet de connexion générique (le DAO) *, qui va être dans une classe abstraite 
-- * Réaliser au moins un objet de connexion non-générique (ArticleDAO)* : Créer au moins une requête simple
+- * Réaliser au moins un objet de connexion non-générique (ArticleDAO, CommentDAO)* : Créer au moins une requête simple
 
 ---
 

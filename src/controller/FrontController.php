@@ -25,6 +25,11 @@ class FrontController
         require '../templates/home.php';
     }
 
+    public function contact()
+    {
+        require '../templates/contact.php';
+    }
+
     public function post($id)
     {
         $article = $this->articleDAO->getArticle($id);
