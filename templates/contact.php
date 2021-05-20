@@ -1,18 +1,7 @@
-
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-	<meta charset="UTF-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Contact Form - Free Bulma template</title>
-	<link rel="shortcut icon" href="../images/fav_icon.png" type="image/x-icon">
-	<!-- Bulma Version 0.9.0-->
-	<link rel="stylesheet" href="https://unpkg.com/bulma@0.9.0/css/bulma.min.css" />
-	<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
-		integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
-	<style>
+<?php
+        require 'includes/header.php';
+    ?>
+<style>
         .social-media {
     margin-top: 30px;
     }
@@ -42,45 +31,6 @@
     }
     }
     </style>
-</head>
-
-<body>
-	<!-- START NAV -->
-	<nav class="navbar">
-		<div class="container">
-			<div class="navbar-brand">
-				<a class="navbar-item" href="../">
-					<img src="../public/images/bulma.png" alt="Logo">
-				</a>
-				<span class="navbar-burger burger" data-target="navbarMenu">
-					<span></span>
-					<span></span>
-					<span></span>
-				</span>
-			</div>
-			<div id="navbarMenu" class="navbar-menu">
-				<div class="navbar-end">
-					<a class="navbar-item is-active">Home</a>
-					<a class="navbar-item">Examples</a>
-					<a class="navbar-item">Features</a>
-					<a class="navbar-item">Team</a>
-					<a class="navbar-item">Archives</a>
-					<a class="navbar-item">Help</a>
-					<div class="navbar-item has-dropdown is-hoverable">
-						<a class="navbar-link">Account</a>
-						<div class="navbar-dropdown">
-							<a class="navbar-item">Dashboard</a>
-							<a class="navbar-item">Profile</a>
-							<a class="navbar-item">Settings</a>
-							<hr class="navbar-divider">
-							<div class="navbar-item">Logout</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</nav>
-	<!-- END NAV -->    
 	<section class="hero is-fullheight">
 		<div class="hero-body">
 			<div class="container has-text-centered">
