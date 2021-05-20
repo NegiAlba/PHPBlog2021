@@ -1,0 +1,4 @@
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^/phpblog2021/$
+RewriteRule (.*) http://localhost/phpblog2021/$1 [R=301,L]
+RewriteRule ^$ public [L]
