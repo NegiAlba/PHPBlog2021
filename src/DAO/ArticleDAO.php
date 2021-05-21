@@ -36,4 +36,25 @@ class ArticleDAO extends DAO
 
         return $this->buildArticle($article);
     }
+
+    public function createArticle($data)
+    {
+        // $values = implode(', ', array_values($data));
+        $sql = 'INSERT INTO article (title, theme, content) VALUES (?,?,?)';
+        $result = $this->createQuery($sql, [$data[0], $data[1], $data[2]]);
+    }
+
+    public function editArticle($data)
+    {
+        // $values = implode(', ', array_values($data));
+        $sql = 'UPDATE article SET title = ?,theme = ?,content = ? WHERE id = ?';
+        $result = $this->createQuery($sql, [$data[0], $data[1], $data[2], $data[3]]);
+    }
+
+    public function deleteArticle($data)
+    {
+        // $values = implode(', ', array_values($data));
+        $sql = 'DELETE FROM article WHERE id = ?';
+        $result = $this->createQuery($sql, [$data[0]]);
+    }
 }
